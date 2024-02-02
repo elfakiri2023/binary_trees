@@ -44,5 +44,6 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 size_t height_calculator(const binary_tree_t *tree);
 int full_checker(const binary_tree_t *tree);
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
+binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
 
 #endif
